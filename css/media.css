@@ -1,0 +1,91 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px){
+    main h1{
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+    
+    main h2{
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        margin-bottom: 10px;
+    }
+    
+    main p{
+        font-size: 16px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    header .logo{
+        width: 120px !important;
+    }
+
+    main h1{
+        font-size: 50px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    
+    main h2{
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        margin-bottom: 10px;
+    }
+    
+    main p{
+        font-size: 16px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    main h1{
+        font-size: 70px;
+        line-height: 70px;
+        margin-bottom: 30px;
+    }
+    
+    main h2{
+        font-size: 22px;
+        letter-spacing: 1.5px;
+        margin-bottom: 20px;
+    }
+    
+    main p{
+        font-size: 18px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    main h1{
+        font-size: 60px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    
+    main h2{
+        font-size: 20px;
+        letter-spacing: 1.5px;
+        margin-bottom: 20px;
+    }
+    
+    main p{
+        font-size: 17px;
+    }
+}
+
+/*X large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+}
+
+/*XX Large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}
+
