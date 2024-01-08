@@ -31,7 +31,7 @@
 
 main{
     min-height: 100vh;
-    background-image: linear-gradient(to right, #000000d8, #000000d2,#000000d2,#000000d8),url(../images/bg-1.jpg);
+    background-image: linear-gradient(to right, #000000f3, #000000f3,#000000f3,#000000f3),url(../images/bg-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -42,17 +42,19 @@ main{
 }
 
 main h1{
-    font-family: 'Lemon', serif;
+    font-family: 'Ysabeau Infant', sans-serif;
     letter-spacing: 0px;
     font-size: 85px;
+    font-weight: 700;
     color: #fff;
     line-height: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 main h2{
-    font-family: 'Salsa', cursive;
+    font-family: 'Ysabeau Infant', sans-serif;
     color: #fff;
+    font-weight: 600;
     font-size: 26px;
     letter-spacing: 1.5px;
     margin-bottom: 20px;
@@ -78,6 +80,11 @@ main p{
     font-size: 18px;
     cursor: pointer;
     border: 1px solid #fff;
+    transition: 0.3s;
+    
+}
+
+.btn_ripple:hover{
     animation-name: ripple;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
